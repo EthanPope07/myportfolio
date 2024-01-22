@@ -10,8 +10,8 @@ const Footer = () => {
                 <div className='location'>
                     <FaHome size={20} style={{color:"white", marginRight: "2rem"}}/>
                     <div>
-                        <p>123 example street.</p>
-                        <p>United States.</p>
+                        <p>100 N Frontier Ln.</p>
+                        <p>78613, United States.</p>
                     </div>
                 </div>
                 <div className='phone'>
@@ -27,7 +27,7 @@ const Footer = () => {
                 <div className='social'>
                     <a href='https://www.instagram.com/ethan.pope1/' target="_blank"><FaInstagram size={30} style={{color:"white", marginRight: "2rem"}}/></a>
                     <a href='https://github.com/EthanPope07' target='_blank'><FaGithub size={30} style={{color:"white", marginRight: "2rem"}}/></a>
-                    <FaLinkedin size={30} style={{color:"white", marginRight: "2rem"}}/>
+                    <a href='https://www.linkedin.com/in/ethan-pope-758b4a227/' target='_blank'><FaLinkedin size={30} style={{color:"white", marginRight: "2rem"}}/></a>
                 </div>
             </div>
         </div>
